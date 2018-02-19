@@ -1,0 +1,72 @@
+.left {
+    float: left
+}
+
+.saved {
+    background-color: lightcyan;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px darkgrey;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid lightblue;
+}
+
+
+.saved:hover {
+    background-color: cyan;
+}
+
+.saved a {
+    text-decoration: none;
+}
+
+.delete-btn {
+    margin: 5px;
+}
+.delete-btn:hover {
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+
+.savedheader {
+    background-image: url("assets/saved.jpg");
+}
+.searchheader {
+    background-image: url("assets/search.jpg");
+    background-size: auto 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.savedheader h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: lightgrey;
+}
+
+.resultsheader {
+    background-color: black
+}
+.resultsheader h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: lightgrey;
+}
+
+
+body {
+    background-color:lightcyan;
+}
+
+.navbar-inverse {
+    background-color: slategray;
+    border-color: darkslategray;
+}
+.navbar-inverse a {
+    margin-left: 20px !important;
+}
+.navbar-inverse  a:hover { 
+    background-color:darkslategray !important;
+ }
